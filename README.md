@@ -28,14 +28,8 @@ funcao analise_frequencia(texto):
       incrementa a frequencia da letra no mapa
   retorna o mapa de frequencias
 
-funcao plotar_distribuicao(frequencias):
-  imprime um cabeçalho para a tabela
-  para cada letra e frequencia no mapa de frequencias:
-    imprime a letra e sua frequencia em uma linha da tabela
-
 funcao quebrar_cifra_cesar(texto_cifrado):
   frequencias = analise_frequencia(texto_cifrado)
-  plota_distribuicao(frequencias)
   letra_mais_frequente = encontra a letra com maior frequencia em frequencias
   chave = (indice da letra_mais_frequente - indice de 'E') modulo tamanho do alfabeto
   imprime a letra mais frequente e a chave potencial
