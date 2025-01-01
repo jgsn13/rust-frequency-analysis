@@ -40,12 +40,3 @@ funcao quebrar_cifra_cesar(texto_cifrado):
 ```bash
 cargo run
 ```
-
-## Melhorias
-
-*   Tratamento de outros caracteres
-*   Análise de n-gramas (sequências de n letras)
-*   Teste com diferentes textos
-*   Tratar casos de empate na letra mais frequente
-*   Usar um gráfico para plotar a distribuição
-
